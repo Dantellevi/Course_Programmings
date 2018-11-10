@@ -43,10 +43,10 @@ void ShowInfo(string (*foort)())
 int main()
 {
 	setlocale(LC_ALL, "ru");
-	/*void(*fooPointer)();
-	int(*foos)(int a);
-	fooPointer = foo1;
-	fooPointer();
+	/*void(*fooPointer)();//выдел€ю указатель на функцию
+	int(*foos)(int a);//второй указатель на функцию
+	fooPointer = foo1;//присваиваю указателю адрес функции
+	fooPointer();//вызываю функцию по указателю
 	 foos= foo1s;
 	 cout << foos(123);*/
 
